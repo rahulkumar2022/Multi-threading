@@ -1,0 +1,12 @@
+Life Cycle
+1. New
+2. Runnable
+3. Running
+4. Non-Runnable(Blocked)
+5. Terminated
+
+
+Ways of thread implemetation
+1. extends Thread class
+2. implement Runnable Interface
+
