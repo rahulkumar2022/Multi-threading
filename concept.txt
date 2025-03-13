@@ -10,3 +10,19 @@ Ways of thread implemetation
 1. extends Thread class
 2. implement Runnable Interface
 
+Extending Thread class
+- override run() method which is entry point for
+  of new Thread
+
+Implementing Runnable Interface
+- After implementing runnable interface, class needs to implement
+  runnable thr run() method, which is public void run()
+  - Thread will end when run() when run method returns.
+  
+
+Difference between Runnable and Thread
+- Implementing Runnable is preffered.
+- Implementing Runnable makes class more felxible. If you extend Thread then the action you're doing is 
+  always going to be in a thread.
+  However, if I implement Runnable it doesn't have to be. You can run it in a thread, or pass it to some 
+  kind of executor service, or just pass or around always a task within a single threaded application
