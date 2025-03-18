@@ -53,7 +53,7 @@ class ClientThread extends Thread {
     @Override
     public void run() {
         double balance = account.getBalance();
-        System.out.println(Thread.currentThread().getName() + " viewed the balance: " + balance);
+        System.out.println(Thread.currentThread() + " viewed the balance: " + balance);
         account.updateBalance(100);
     }
 }

@@ -32,3 +32,11 @@ Difference between Runnable and Thread
  => Both processes and threads are independent sequences of execution.
   The typical difference is that threads run in a shared memory space, while
    processes run in separate memory spaces.
+
+
+2.) Demon Thread and User Thread
+=> Demon thread are backgroud thread which can only exist if there is any user thread.
+ It serves the execution for User Thread.
+
+ 
+
