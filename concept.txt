@@ -26,3 +26,9 @@ Difference between Runnable and Thread
   always going to be in a thread.
   However, if I implement Runnable it doesn't have to be. You can run it in a thread, or pass it to some 
   kind of executor service, or just pass or around always a task within a single threaded application
+
+
+1.) What is the difference between Process and Thread?
+ => Both processes and threads are independent sequences of execution.
+  The typical difference is that threads run in a shared memory space, while
+   processes run in separate memory spaces.
